@@ -6,7 +6,7 @@ Este projeto é um Planejador de Rotas para o Carnaval que ajuda os usuários a 
 
 # Tecnologias Utilizadas
 
-- **Express.js:**O servidor backend é construído usando o Express.js para lidar com requisições e respostas HTTP.
+- **Express.js:** O servidor backend é construído usando o Express.js para lidar com requisições e respostas HTTP.
 
 - **Prisma:** ORM de banco de dados usado para interação com o PostgreSQL. Fornece um construtor de consultas gerado automaticamente e seguro em relação a tipos.
 - **Axios:** Um cliente HTTP baseado em promessas usado para fazer requisições a APIs externas.
