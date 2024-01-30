@@ -1,0 +1,31 @@
+{
+  "name": "carnaval-project",
+  "version": "1.0.0",
+  "description": "Back-End project of routes for the Carnival blocks in Belo Horizonte-Minas Gerais, Brazil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "npx prisma generate",
+    "deploy": "npx prisma migrate deploy",
+    "dev": "prisma generate && ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
+    "build": "tsup src",
+    "start": "node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.10",
+    "prisma": "^5.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@prisma/client": "^5.8.1",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}

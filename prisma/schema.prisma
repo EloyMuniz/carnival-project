@@ -1,0 +1,18 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model blocks {
+  bl__uuid   String  @id() @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  bl_block   String? @db.VarChar(255)
+  bl_address String? @db.VarChar(255)
+  bl_hour    String? @db.VarChar(255)
+}
