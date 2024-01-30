@@ -1,4 +1,4 @@
-# Planejador de Rotas para o Carnaval de Belo Horizonte
+# Planejador de Rotas para o Carnaval de Belo Horizonte.
 
 ## Visão Geral
 
